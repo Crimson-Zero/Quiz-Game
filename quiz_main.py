@@ -17,12 +17,3 @@ while testing.still_has_questions()==True:
     testing.check_answer()
 
 testing.get_score()
- 
-
-
-
-""""Notes Initiality the quiz question_model was initialized as the Quiz_Store class that 
-had the attributes of the question and answer which were passed into it from the quiz_main.py
-file 12 objects were created for the quiz_store using the loop this can be accomplished
-with the range and len on the for question in question as the question data is a list
-holding key value pairs."""
